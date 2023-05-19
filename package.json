@@ -1,0 +1,13 @@
+{
+  "name": "jestTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
