@@ -3,9 +3,9 @@ name: Unit Tests
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   Jest:
