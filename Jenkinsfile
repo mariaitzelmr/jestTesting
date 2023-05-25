@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('hello-world-jenkinsfile') {
+        stage('Build') {
             steps {
-                echo 'Hello from jenkinsfile'
+                echo 'Build'
             }
         }
     }
