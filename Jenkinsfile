@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('hello-world-jenkinsfile') {
+        stage('build number print') {
             steps {
                 echo "Build number is ${currentBuild.number}"
             }
